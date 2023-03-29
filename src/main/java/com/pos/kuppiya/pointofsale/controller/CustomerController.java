@@ -132,4 +132,9 @@ public class CustomerController {
         List<CustomerDTO> customerDTOList = customerService.getCustomersByState(state);
         return customerDTOList;
     }
+
+
+    public static void nikan(){
+        System.out.println("sdgdsdsgdf");
+    }
 }
